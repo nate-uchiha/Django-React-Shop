@@ -2,7 +2,7 @@ from .base import *
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.0.10']
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
@@ -19,8 +19,11 @@ DATABASES = {
         'NAME': 'django_react',
         'USER': 'kirito',
         'PASSWORD': 'sharingan',
-        'HOST': '127.0.0.1',
-        'PORT': '3306'
+        'HOST': '10.0.2.2',
+        'PORT': '3306',
+	'OPTIONS': {
+		'sql_mode': 'STRICT_TRANS_TABLES'	
+	}
     }
 }
 
