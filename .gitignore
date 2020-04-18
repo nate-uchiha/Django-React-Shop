@@ -1,3 +1,0 @@
-#default gitignore
-backend\core\management\commands\*
-backend\coree\management\*
