@@ -1,0 +1,2 @@
+#default gitignore
+backend/core/management/*
