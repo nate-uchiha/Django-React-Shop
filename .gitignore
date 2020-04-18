@@ -1,1 +1,5 @@
 backend/core/__pycache__
+backend/core/migrations/0001_initial.py
+backend/core/migrations/__init__.py
+backend/core/migrations/__pycache__/0001_initial.cpython-36.pyc
+backend/core/migrations/__pycache__/__init__.cpython-36.pyc
