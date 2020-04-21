@@ -1,5 +1,6 @@
 
 mugreens/
+.vscode/
 backend/backend/development.py
 backend/db.sqlite3
 backend/core/__pycache__/
@@ -27,4 +28,6 @@ backend/core/__pycache__/models.cpython-36.pyc
 backend/core/__pycache__/serializers.cpython-36.pyc
 backend/core/__pycache__/views.cpython-36.pyc
 backend/core/templatetags/__pycache__/cart_template_tags.cpython-36.pyc
+
+
 

@@ -11,6 +11,11 @@ from django.core.exceptions import ObjectDoesNotExist
 from .models import Item, Order, OrderItem
 from .serializers import ItemSerializer, OrderSerializer
 
+
+
+def hello(request):
+     return Response("world")
+
 class ItemListView(ListAPIView):
     permission_classes = [AllowAny]
     serializer_class = ItemSerializer
