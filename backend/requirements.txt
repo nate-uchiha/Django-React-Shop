@@ -31,5 +31,5 @@ six==1.14.0
 sqlparse==0.3.1
 stripe==2.45.0
 suds-jurko==0.6
-urllib3==1.25.9
+urllib3==1.26.5
 xmltodict==0.12.0
